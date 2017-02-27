@@ -1,0 +1,126 @@
+body{
+	padding:5px;
+	position:relative;
+}
+#nav{
+	width: 180px;
+	margin-top: 10px;
+	font-size: 20px;
+	margin-left: 5px;
+	height: auto;
+	background-color: #fcfcfc;
+	cursor: pointer;
+}
+#main{
+	width: 89%;
+	position: absolute;
+	left: 200px;
+	background-color:#fcfcfc;
+	height: 600px;
+}
+#complete_user_information{
+	width: 23%;
+	height: 58%;
+	background-color: #e0e0e0;
+	position: relative;
+}
+#add_vocabulary{
+	width: 23%;
+	height: 41%;
+	background-color: #e0e0e0;
+	position: relative;
+}
+#divide{
+	width: 23%;
+	height: 1%;
+	background-color: #fff;
+	position: relative;
+}
+#test{
+	width: 76%;
+	height: 100%;
+	background-color: #e0e0e0;
+	position: relative;
+	padding-left: 5px;
+}
+#test_top{
+	width: 100%;
+	height: 9%;
+	position: relative;
+}
+#choose_num{
+	width: 14%;
+	height: 60%;
+	text-align: center;
+	border: 1px solid red;
+	font-size: 25px;
+	font-family: "隶书";
+	position: absolute;
+}
+#choose_from{
+	width: 14%;
+	height: 60%;
+	text-align: center;
+	border: 1px solid red;
+	font-size: 25px;
+	font-family: "隶书";
+	position: absolute;
+}
+#test_area_1{
+	width: 47%;
+	height: 80%;
+	background-color: #fcfcfc;
+}
+
+#test_area_2{
+	width: 46%;
+	height: 80%;
+	background-color: #fcfcfc;
+	position: absolute;
+}
+#test_result{
+	width: 100%;
+	height: 8%;
+/*	background-color: gray;*/
+	margin-top: 5px;
+	position: relative;
+}
+
+#test_result_show{
+	width: auto;
+	height: 100%;
+	display: inline;
+	list-style: none;
+	position: absolute;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	margin-left: 0;
+}
+#test_result_show li{
+	float: left;
+	margin-top: 5px;
+	text-align: center;
+}
+#rate{
+	width: 60%;
+	height: 100%;
+	position: relative;
+	float: right;
+	margin-right: 15px;
+}
+#test_record{
+	width:35%;
+	height: 550px;
+	background-color: #e0e0e0;
+	position: absolute;
+	display: none;
+}
+#next_pre{
+	width: 100%;
+	position:relative;
+	background-color: #e0e0e0;
+	list-style: none;
+	display: inline-table;
+	float: left;
+}

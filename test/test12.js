@@ -1,0 +1,14 @@
+var os = require("os");
+console.log(os.tmpdir());
+console.log("返回CPU的存储方式"+os.endianness());
+console.log("返回操作系统的主机名" + os.hostname());
+console.log("返回操作系统名称" + os.type());
+console.log("返回操作系统平台" + os.platform());
+console.log("返回操作系统的CPU架构" + os.arch());
+console.log("返回操作系统版本"+os.release());
+console.log("返回系统正常运行时间(秒)"+os.uptime());
+console.log("返回包含1,5,和15分钟的负载量平均值的数组" + os.loadavg());
+console.log("返回以字节系统存储器的总量" + os.totalmem());
+console.log("返回可用系统内存量" + os.freemem());
+console.log("返回一个包含每个已安装的CPU的信息对象的数组" + os.cpus());
+console.log("得到的网络接口的列表"+os.networkInterfaces());

@@ -1,0 +1,31 @@
+#login_img{
+	width: 70%;
+	height: 500px;
+	position:relative;
+	margin-top: 5px;
+	margin-left: 5px;
+	overflow: hidden;
+}
+#login_win{
+	width: 28%;
+	height: 500px;
+	position:relative;
+	margin-top: -500px;
+	float: left;
+	background:url(../image/login_img.png) no-repeat;
+	overflow: hidden;
+}
+#main{width: 100%;height: auto;}
+#button{
+	display: inline-table;
+	width: auto;
+	height:auto;
+	position:absolute;
+	left:-10px;
+	bottom: 0;
+	list-style: none;
+}
+
+#button li{
+	float: left;
+}

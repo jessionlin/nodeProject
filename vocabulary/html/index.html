@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>阿尔法单词测试辅助系统</title>
+<link rel="short icon"  href="image/title.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/index_nap.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/top.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+<div></div>
+<ul class="nav nav-pills nav-stacked" id="nav">
+	<li class="active"><a id="完善个人信息" onclick="changeActive(this)">完善个人信息</a></li>
+	<li><a id="添加词汇" onclick="changeActive(this)">添加词汇</a></li>
+	<li><a id="开始测试" onclick="changeActive(this)">开始测试</a></li>
+	<li><a id="查看测试记录" onclick="changeActive(this)">查看测试记录</a></li>
+</ul>
+<div id="main">
+	<div id="complete_user_information"></div>
+	<div id="divide"></div>
+	<div id="add_vocabulary"></div>
+	<div id="test">
+		<div id="test_top">
+			<select id="choose_from">
+				<option value="0">请选择测试起始处</option>
+			</select>
+			<select id="choose_num">
+				<option value="0">请选择测试单词数</option>
+			</select>
+		</div>
+		<div id="test_area_1"></div>
+		<div id="test_area_2"></div>
+		<div id="test_result">
+			<div id="rate"></div>
+			<ul id="test_result_show"></ul>
+		</div>
+	</div>
+</div>
+<div id="test_record">
+	<ul id="test_record_show"></ul>
+</div>
+<div><label id="result" style="display:none;">0</label></div>
+<div><label id="wrong" style="display:none;">0</label></div>
+<div><label id="whole" style="display:none;">0</label></div>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

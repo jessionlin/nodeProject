@@ -1,0 +1,54 @@
+#userInfo{
+	width: 30%;
+	height: auto;
+	background-color: #e0e0e0;
+	margin-top: 5px;
+	margin-left: 5px;
+	position: relative;
+}
+#adminInfo{
+	width: 30%;
+	height: auto;
+	background-color: #e0e0e0;
+	margin-top: 5px;
+	margin-left: 5px;
+	position: relative;
+}
+#add_vocabulary{
+	width: 30%;
+	height: auto;
+	background-color: #e0e0e0;
+	margin-top: 5px;
+	margin-left: 5px;
+	position: relative;
+}
+#show_user{
+	width: 50%;
+	height:500px;
+	background-color: #e0e0e0;
+	margin-top: 5px;
+	margin-left: 5px;
+	position: relative;
+}
+#actions{
+	display: inline-table;
+	width: 100%;
+	height:auto;
+	position:relative;
+	list-style: none;
+}
+#admins{
+	display: inline-table;
+	width: 100%;
+	height:auto;
+	position:relative;
+	list-style: none;
+}
+#next_pre{
+	width: 100%;
+	position:relative;
+	background-color: #e0e0e0;
+	list-style: none;
+	display: inline-table;
+	float: left;
+}
